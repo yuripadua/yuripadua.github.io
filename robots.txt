@@ -1,0 +1,9 @@
+# Bloqueia o acesso ao diretório /assets
+User-agent: *
+Disallow: /assets/
+
+# Permite acesso ao resto do site
+Allow: /
+
+# Especifica o local do sitemap (substitua pela URL real do seu sitemap)
+Sitemap: https://your-portfolio-url.com/sitemap.xml
