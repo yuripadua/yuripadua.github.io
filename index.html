@@ -44,6 +44,20 @@
 		  ]
 		}
 		</script>
+	<script>
+		(function () {
+			// Pega idioma do navegador, por ex. "pt-BR", "en-US", etc.
+			var userLang = (navigator.language || navigator.userLanguage).toLowerCase();
+			// Verifica o path atual, ex. "/" ou "/pt/index.html"
+			var currentPath = window.location.pathname.toLowerCase();
+
+			// Se o idioma começa com "pt" E não estamos em /pt/ (para evitar loop):
+			if (userLang.startsWith('pt') && !currentPath.startsWith('/pt/')) {
+				// Redireciona para /pt/
+				window.location.href = '/pt/';
+			}
+		})();
+	</script>
 </head>
 
 <body class="is-preload landing">
