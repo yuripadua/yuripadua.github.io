@@ -6,4 +6,4 @@ Disallow: /assets/
 Allow: /
 
 # Especifica o local do sitemap (substitua pela URL real do seu sitemap)
-Sitemap: https://your-portfolio-url.com/sitemap.xml
+Sitemap: https://yuripadua.github.io/sitemap.xml
