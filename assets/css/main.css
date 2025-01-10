@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
@@ -3217,6 +3218,7 @@ body.landing #header {
 }
 
 #banner:after {
+  ;
   background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
   ;
   content: "";
@@ -3812,6 +3814,18 @@ body.is-touch #banner {
 .my-email-link:hover {
   color: #2254C4;
   text-decoration: underline;
+}
+
+/* Por padrão, escondemos o #logo */
+#logo {
+  display: none;
+}
+
+/* Em telas pequenas (aqui <= 736px, mas ajuste conforme o tema) */
+@media screen and (max-width: 736px) {
+  #logo {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

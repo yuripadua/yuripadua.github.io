@@ -2525,3 +2525,16 @@ body {
 		text-decoration: underline;
 	}
 }
+
+
+/* Por padrão, escondemos o #logo */
+#logo {
+	display: none;
+}
+
+/* Em telas pequenas (aqui <= 736px, mas ajuste conforme o tema) */
+@media screen and (max-width: 736px) {
+	#logo {
+		display: block;
+	}
+}
