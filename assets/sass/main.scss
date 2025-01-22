@@ -2538,3 +2538,31 @@ body {
 		display: block;
 	}
 }
+
+
+
+.react-section a {
+    text-decoration: none;
+    color: white; /* Mantém o texto branco */
+    display: block; /* Para garantir que o link englobe toda a seção */
+    text-align: center;
+    transition: all 0.3s ease; /* Suaviza o hover */
+}
+
+.react-section a h3, 
+.react-section a p {
+    color: white; /* Torna o texto branco */
+}
+
+.react-section a:hover h3, 
+.react-section a:hover p {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.react-section a img.react-logo {
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    object-fit: contain;
+    margin: 0 auto;
+}
