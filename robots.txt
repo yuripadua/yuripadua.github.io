@@ -5,5 +5,5 @@ Disallow: /assets/
 # Permite acesso ao resto do site
 Allow: /
 
-# Especifica o local do sitemap (substitua pela URL real do seu sitemap)
+# Localização do sitemap
 Sitemap: https://yuripadua.github.io/sitemap.xml
